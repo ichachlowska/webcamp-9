@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  width: 100%;
+  font-family: 'Cabin', sans-serif;
+  font-size: 14px;
+  color: #333;
+  overflow-x: hidden;
+}
+
+body {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: block;
+}
+
+@media (max-width: 1170px) {
+  body {
+    max-width: 100%;
+  }
+}
+
+section {
+  flex-wrap: wrap;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+img {
+  border: none;
+  max-width: 100%;
+  height: auto;
+}
+
+[class*='col-'] {
+  position: relative;
+  width: 100%;
+}
+
+.col-1 {
+  max-width: 8.33333%;
+}
+.col-2 {
+  max-width: 16.66667%;
+}
+.col-3 {
+  max-width: 25%;
+}
+.col-4 {
+  max-width: 33.33333%;
+}
+.col-5 {
+  max-width: 41.66667%;
+}
+.col-6 {
+  max-width: 50%;
+}
+.col-7 {
+  max-width: 58.33333%;
+}
+.col-8 {
+  max-width: 66.66667%;
+}
+.col-9 {
+  max-width: 75%;
+}
+.col-10 {
+  max-width: 83.33333%;
+}
+.col-11 {
+  max-width: 91.66667%;
+}
+.col-12 {
+  max-width: 100%;
+}
+
+@media (min-width: 979px) {
+  .col-md-1 {
+    max-width: 8.33333%;
+  }
+  .col-md-2 {
+    max-width: 16.66667%;
+  }
+  .col-md-3 {
+    max-width: 25%;
+  }
+  .col-md-4 {
+    max-width: 33.33333%;
+  }
+  .col-md-5 {
+    max-width: 41.66667%;
+  }
+  .col-md-6 {
+    max-width: 50%;
+  }
+  .col-md-7 {
+    max-width: 58.33333%;
+  }
+  .col-md-8 {
+    max-width: 66.66667%;
+  }
+  .col-md-9 {
+    max-width: 75%;
+  }
+  .col-md-10 {
+    max-width: 83.33333%;
+  }
+  .col-md-11 {
+    max-width: 91.66667%;
+  }
+  .col-md-12 {
+    max-width: 100%;
+  }
+}
